@@ -14,6 +14,12 @@
   
 }
 
+.container{
+    max-width: 2100px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
 
 /* HEADER PART HERE. logo 1,list and eAccess button */
 .logo1 img{
@@ -191,6 +197,112 @@ nav  .middle a{
 }
 
 .banner-content .banner-button .btn2:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(143, 143, 194);
+    color: rgb(255, 253, 253);
+    transform: scale(1.05);
 }
+
+
+#sec2{
+    width: 100%;
+    height: 450px;
+    padding: 40px 120px 120px 120px;
+    align-items: center;
+    text-align: center;
+}
+
+#sec2 .heading{
+    margin-bottom: 50px;
+}
+
+#sec2 .heading h1{
+    font-size: 50px;
+    color: #001931;
+}
+
+#sec2 .heading p{
+    font-size: 20px;
+}
+
+#sec2 .card-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+/* icon bg circle */
+.card-container .cards img{
+
+    background-color: #F95555;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    margin-bottom: 17px;
+}
+
+.card-container .cards h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.card-container .cards p{
+    font-size: 16px;
+    color: #627382;
+}
+
+#sec3{
+    padding: 120px 0;
+}
+
+#sec3 .container3{
+
+    /* padding: 120px 120px 120px 120px; */
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+.container3 .picture img{
+    width: 600px;
+    height: 600px;
+}
+
+.container3 .writing h6{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: 500;
+
+}
+
+.writing h2{
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+
+}
+
+.writing p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #627382;
+
+}
+.writing ul{
+    list-style: none;
+}
+
+.writing ul li{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 15px;
+}
+
