@@ -1,0 +1,196 @@
+/* body{
+    background-color: bisque;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+/* HEADER PART HERE. logo 1,list and eAccess button */
+.logo1 img{
+  width: 160px;
+  height: 60px;
+}
+
+
+/* all button design */
+.btn{
+         
+    background-color: #30B868;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+}
+
+.btn:hover{
+    background-color: #07632d;
+    color: white;
+    transform: scale(1.05);
+}
+
+nav{
+    /* width: 1900px;
+    max-width: 2100px;  */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px 15px 120px; 
+}
+
+nav .middle{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+nav  .middle a{
+    
+    font-size: 20;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+#banner{
+     
+    width: 100%;
+    height: 700px;
+    /* max-width: 2100px; */ 
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#banner .banner-content{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 120px 134px 120px; 
+
+}
+
+/* .banner-content .banner-image{
+    width: 1900px;
+    max-width: 2100px;
+}  */
+
+/* early access here */
+.banner-content h4 img{
+    width: 16px;
+    height: 16px;
+}
+.banner-content h4{
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 240px;
+    justify-content: center;
+    padding: 8px 12px 8px 12px;
+    color: #30B868;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.banner-content .l1{
+
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.banner-content .l2{
+
+    font-size: 60px;
+    color: #30B868;
+    font-weight: 600;
+}
+
+.banner-content p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+.banner-content .banner-button{
+
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+
+.banner-content .banner-button .btn1{
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #30B868;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.banner-content .banner-button .btn2{
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid white;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.banner-content .banner-button .btn1:hover{
+    background-color: #07632d;
+    transform: scale(1.05);
+}
+
+.banner-content .banner-button .btn2:hover{
+    background-color: white;
+    color: black;
+}
