@@ -15,7 +15,7 @@
 }
 
 
-/* to keep everything centered */
+/* to keep everything centered .. An universal container.. used in several divs around the project*/
 .container{
     max-width: 2100px;
     margin: 0 auto;
